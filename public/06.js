@@ -1,3 +1,4 @@
+"use strict";
 // dynamic (any) type
 // use it sparingly, or not at all
 var valueAge = 25;

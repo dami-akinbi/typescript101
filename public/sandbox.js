@@ -1,3 +1,4 @@
+"use strict";
 // explicit types
 var character;
 var age;
@@ -26,3 +27,4 @@ ninjaOne = [];
 var ninjaTwo;
 ninjaTwo = { name: 'mario', age: 20, beltColor: 'black' };
 console.log(ninjaTwo);
+console.log('It worked, hallelujah!');
