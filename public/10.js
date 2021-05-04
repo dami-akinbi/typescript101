@@ -1,14 +1,14 @@
 "use strict";
 // FUNCTION SUGNATURES
-var greetAgain;
+let greetAgain;
 // example 1
-var greetAgain2;
-greetAgain2 = function (name, greeting) {
-    console.log(name + " says " + greeting);
+let greetAgain2;
+greetAgain2 = (name, greeting) => {
+    console.log(`${name} says ${greeting}`);
 };
 // example 2
-var calc;
-calc = function (num1, num2, action) {
+let calc;
+calc = (num1, num2, action) => {
     if (action === 'add') {
         return num1 + num2;
     }
@@ -17,7 +17,7 @@ calc = function (num1, num2, action) {
     }
 };
 // example 3
-var logDetails2;
-logDetails2 = function (ninja) {
-    console.log(ninja.name + " is " + ninja.age + " years old");
+let logDetails2;
+logDetails2 = (ninja) => {
+    console.log(`${ninja.name} is ${ninja.age} years old`);
 };
